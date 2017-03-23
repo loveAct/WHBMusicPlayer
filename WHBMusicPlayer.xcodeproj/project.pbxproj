@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180335201E0910220083DB45 /* WHBLrcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803351F1E0910220083DB45 /* WHBLrcView.m */; };
+		180335231E0911180083DB45 /* WHBLrc.m in Sources */ = {isa = PBXBuildFile; fileRef = 180335221E0911180083DB45 /* WHBLrc.m */; };
+		180335261E0916870083DB45 /* NSString+Substring.m in Sources */ = {isa = PBXBuildFile; fileRef = 180335251E0916870083DB45 /* NSString+Substring.m */; };
+		180335291E092F090083DB45 /* WHBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180335281E092F080083DB45 /* WHBLabel.m */; };
+		1832ABF81E0815C8004D25FE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1832ABF71E0815C8004D25FE /* AVFoundation.framework */; };
+		1832ABFC1E081760004D25FE /* WHBPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832ABFB1E081760004D25FE /* WHBPlayerViewController.m */; };
 		185B8D211E058FE000B9C7BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B8D201E058FE000B9C7BB /* main.m */; };
 		185B8D241E058FE000B9C7BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B8D231E058FE000B9C7BB /* AppDelegate.m */; };
 		185B8D271E058FE000B9C7BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B8D261E058FE000B9C7BB /* ViewController.m */; };
 		185B8D2A1E058FE000B9C7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185B8D281E058FE000B9C7BB /* Main.storyboard */; };
 		185B8D2C1E058FE000B9C7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185B8D2B1E058FE000B9C7BB /* Assets.xcassets */; };
 		185B8D2F1E058FE000B9C7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185B8D2D1E058FE000B9C7BB /* LaunchScreen.storyboard */; };
+		185B8D3E1E0592A800B9C7BB /* WHBSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B8D3D1E0592A800B9C7BB /* WHBSong.m */; };
+		185B8D411E0592F000B9C7BB /* WHBPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B8D401E0592F000B9C7BB /* WHBPlaylist.m */; };
+		185B8D441E05933100B9C7BB /* WHBMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B8D431E05933100B9C7BB /* WHBMusicPlayer.m */; };
+		185B8D471E05949F00B9C7BB /* WHBPlaylistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B8D461E05949F00B9C7BB /* WHBPlaylistManager.m */; };
+		185B8D4A1E05955100B9C7BB /* WHBThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B8D491E05955100B9C7BB /* WHBThemeManager.m */; };
+		185B8D641E059C6300B9C7BB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185B8D661E059C6300B9C7BB /* Localizable.strings */; };
+		18C933A21E06B33B0063F9F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C933A41E06B33B0063F9F5 /* InfoPlist.strings */; };
+		18C933A81E06B66D0063F9F5 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 18C933A71E06B66D0063F9F5 /* music */; };
+		18C933AB1E06B7CA0063F9F5 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C933AA1E06B7CA0063F9F5 /* NSString+Path.m */; };
+		18C933B01E06BC620063F9F5 /* NSData+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C933AD1E06BC620063F9F5 /* NSData+JSON.m */; };
+		18C933B11E06BC620063F9F5 /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C933AF1E06BC620063F9F5 /* NSString+JSON.m */; };
+		982BF4D3DE97F740BA7453D0 /* libPods-WHBMusicPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B6F68AEB5197B300017DC7 /* libPods-WHBMusicPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1803351E1E0910220083DB45 /* WHBLrcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBLrcView.h; sourceTree = "<group>"; };
+		1803351F1E0910220083DB45 /* WHBLrcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBLrcView.m; sourceTree = "<group>"; };
+		180335211E0911180083DB45 /* WHBLrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBLrc.h; sourceTree = "<group>"; };
+		180335221E0911180083DB45 /* WHBLrc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBLrc.m; sourceTree = "<group>"; };
+		180335241E0916870083DB45 /* NSString+Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Substring.h"; sourceTree = "<group>"; };
+		180335251E0916870083DB45 /* NSString+Substring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Substring.m"; sourceTree = "<group>"; };
+		180335271E092F080083DB45 /* WHBLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBLabel.h; sourceTree = "<group>"; };
+		180335281E092F080083DB45 /* WHBLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBLabel.m; sourceTree = "<group>"; };
+		1832ABF71E0815C8004D25FE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1832ABFA1E081760004D25FE /* WHBPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBPlayerViewController.h; sourceTree = "<group>"; };
+		1832ABFB1E081760004D25FE /* WHBPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBPlayerViewController.m; sourceTree = "<group>"; };
 		185B8D1C1E058FE000B9C7BB /* WHBMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHBMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185B8D201E058FE000B9C7BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		185B8D221E058FE000B9C7BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		185B8D231E058FE000B9C7BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		185B8D251E058FE000B9C7BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		185B8D261E058FE000B9C7BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -26,6 +54,34 @@
 		185B8D2B1E058FE000B9C7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185B8D2E1E058FE000B9C7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185B8D301E058FE000B9C7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185B8D371E0590A000B9C7BB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185B8D3A1E05913300B9C7BB /* ZWSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWSingleton.h; sourceTree = "<group>"; };
+		185B8D3B1E05915900B9C7BB /* WHBPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHBPrefixHeader.pch; sourceTree = "<group>"; };
+		185B8D3C1E0592A800B9C7BB /* WHBSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBSong.h; sourceTree = "<group>"; };
+		185B8D3D1E0592A800B9C7BB /* WHBSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBSong.m; sourceTree = "<group>"; };
+		185B8D3F1E0592F000B9C7BB /* WHBPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBPlaylist.h; sourceTree = "<group>"; };
+		185B8D401E0592F000B9C7BB /* WHBPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBPlaylist.m; sourceTree = "<group>"; };
+		185B8D421E05933100B9C7BB /* WHBMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBMusicPlayer.h; sourceTree = "<group>"; };
+		185B8D431E05933100B9C7BB /* WHBMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBMusicPlayer.m; sourceTree = "<group>"; };
+		185B8D451E05949F00B9C7BB /* WHBPlaylistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBPlaylistManager.h; sourceTree = "<group>"; };
+		185B8D461E05949F00B9C7BB /* WHBPlaylistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBPlaylistManager.m; sourceTree = "<group>"; };
+		185B8D481E05955100B9C7BB /* WHBThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBThemeManager.h; sourceTree = "<group>"; };
+		185B8D491E05955100B9C7BB /* WHBThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBThemeManager.m; sourceTree = "<group>"; };
+		185B8D671E059C7800B9C7BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		185B8D691E059CA500B9C7BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18C933A31E06B33B0063F9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C933A51E06B3410063F9F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C933A61E06B3420063F9F5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		18C933A71E06B66D0063F9F5 /* music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = music; sourceTree = "<group>"; };
+		18C933A91E06B7CA0063F9F5 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
+		18C933AA1E06B7CA0063F9F5 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
+		18C933AC1E06BC620063F9F5 /* NSData+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSON.h"; sourceTree = "<group>"; };
+		18C933AD1E06BC620063F9F5 /* NSData+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSON.m"; sourceTree = "<group>"; };
+		18C933AE1E06BC620063F9F5 /* NSString+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
+		18C933AF1E06BC620063F9F5 /* NSString+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSON.m"; sourceTree = "<group>"; };
+		4AD4F689B5BA526B8F75FF48 /* Pods-WHBMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHBMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHBMusicPlayer/Pods-WHBMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		81697606306E1A970867BBC9 /* Pods-WHBMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHBMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHBMusicPlayer/Pods-WHBMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		E1B6F68AEB5197B300017DC7 /* libPods-WHBMusicPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WHBMusicPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +89,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1832ABF81E0815C8004D25FE /* AVFoundation.framework in Frameworks */,
+				982BF4D3DE97F740BA7453D0 /* libPods-WHBMusicPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1803351D1E0910030083DB45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				180335271E092F080083DB45 /* WHBLabel.h */,
+				180335281E092F080083DB45 /* WHBLabel.m */,
+				1803351E1E0910220083DB45 /* WHBLrcView.h */,
+				1803351F1E0910220083DB45 /* WHBLrcView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1832ABF61E0815C8004D25FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1832ABF71E0815C8004D25FE /* AVFoundation.framework */,
+				E1B6F68AEB5197B300017DC7 /* libPods-WHBMusicPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1832ABF91E08173A004D25FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1832ABFA1E081760004D25FE /* WHBPlayerViewController.h */,
+				1832ABFB1E081760004D25FE /* WHBPlayerViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		185B8D131E058FE000B9C7BB = {
 			isa = PBXGroup;
 			children = (
 				185B8D1E1E058FE000B9C7BB /* WHBMusicPlayer */,
 				185B8D1D1E058FE000B9C7BB /* Products */,
+				1832ABF61E0815C8004D25FE /* Frameworks */,
+				BE9245F4C1A7F313FE4D0465 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +147,19 @@
 		185B8D1E1E058FE000B9C7BB /* WHBMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				185B8D221E058FE000B9C7BB /* AppDelegate.h */,
+				185B8D391E05911D00B9C7BB /* Common */,
+				185B8D381E0590E600B9C7BB /* Models */,
+				1832ABF91E08173A004D25FE /* Controllers */,
+				1803351D1E0910030083DB45 /* Views */,
+				185B8D371E0590A000B9C7BB /* AppDelegate.h */,
 				185B8D231E058FE000B9C7BB /* AppDelegate.m */,
 				185B8D251E058FE000B9C7BB /* ViewController.h */,
 				185B8D261E058FE000B9C7BB /* ViewController.m */,
 				185B8D281E058FE000B9C7BB /* Main.storyboard */,
 				185B8D2B1E058FE000B9C7BB /* Assets.xcassets */,
 				185B8D2D1E058FE000B9C7BB /* LaunchScreen.storyboard */,
+				185B8D4B1E05970000B9C7BB /* Resources */,
+				185B8D3B1E05915900B9C7BB /* WHBPrefixHeader.pch */,
 				185B8D301E058FE000B9C7BB /* Info.plist */,
 				185B8D1F1E058FE000B9C7BB /* Supporting Files */,
 			);
@@ -79,6 +174,68 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		185B8D381E0590E600B9C7BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				185B8D3C1E0592A800B9C7BB /* WHBSong.h */,
+				185B8D3D1E0592A800B9C7BB /* WHBSong.m */,
+				185B8D3F1E0592F000B9C7BB /* WHBPlaylist.h */,
+				185B8D401E0592F000B9C7BB /* WHBPlaylist.m */,
+				185B8D451E05949F00B9C7BB /* WHBPlaylistManager.h */,
+				185B8D461E05949F00B9C7BB /* WHBPlaylistManager.m */,
+				185B8D421E05933100B9C7BB /* WHBMusicPlayer.h */,
+				185B8D431E05933100B9C7BB /* WHBMusicPlayer.m */,
+				185B8D481E05955100B9C7BB /* WHBThemeManager.h */,
+				185B8D491E05955100B9C7BB /* WHBThemeManager.m */,
+				180335211E0911180083DB45 /* WHBLrc.h */,
+				180335221E0911180083DB45 /* WHBLrc.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		185B8D391E05911D00B9C7BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				185B8D3A1E05913300B9C7BB /* ZWSingleton.h */,
+				180335241E0916870083DB45 /* NSString+Substring.h */,
+				180335251E0916870083DB45 /* NSString+Substring.m */,
+				18C933A91E06B7CA0063F9F5 /* NSString+Path.h */,
+				18C933AA1E06B7CA0063F9F5 /* NSString+Path.m */,
+				18C933AC1E06BC620063F9F5 /* NSData+JSON.h */,
+				18C933AD1E06BC620063F9F5 /* NSData+JSON.m */,
+				18C933AE1E06BC620063F9F5 /* NSString+JSON.h */,
+				18C933AF1E06BC620063F9F5 /* NSString+JSON.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		185B8D4B1E05970000B9C7BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18C933A71E06B66D0063F9F5 /* music */,
+				185B8D4C1E05975100B9C7BB /* Localizables */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		185B8D4C1E05975100B9C7BB /* Localizables */ = {
+			isa = PBXGroup;
+			children = (
+				185B8D661E059C6300B9C7BB /* Localizable.strings */,
+				18C933A41E06B33B0063F9F5 /* InfoPlist.strings */,
+			);
+			path = Localizables;
+			sourceTree = "<group>";
+		};
+		BE9245F4C1A7F313FE4D0465 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81697606306E1A970867BBC9 /* Pods-WHBMusicPlayer.debug.xcconfig */,
+				4AD4F689B5BA526B8F75FF48 /* Pods-WHBMusicPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185B8D331E058FE000B9C7BB /* Build configuration list for PBXNativeTarget "WHBMusicPlayer" */;
 			buildPhases = (
+				88992E60C6B73CAB4A4B1CBB /* [CP] Check Pods Manifest.lock */,
 				185B8D181E058FE000B9C7BB /* Sources */,
 				185B8D191E058FE000B9C7BB /* Frameworks */,
 				185B8D1A1E058FE000B9C7BB /* Resources */,
+				9B62B10950798D0751854F00 /* [CP] Embed Pods Frameworks */,
+				CFE3632C7A580670FFE92A03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,12 +265,19 @@
 		185B8D141E058FE000B9C7BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WHB;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					185B8D1B1E058FE000B9C7BB = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = UUERZTHV57;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -121,6 +288,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 185B8D131E058FE000B9C7BB;
 			productRefGroup = 185B8D1D1E058FE000B9C7BB /* Products */;
@@ -137,20 +305,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C933A81E06B66D0063F9F5 /* music in Resources */,
 				185B8D2F1E058FE000B9C7BB /* LaunchScreen.storyboard in Resources */,
+				185B8D641E059C6300B9C7BB /* Localizable.strings in Resources */,
 				185B8D2C1E058FE000B9C7BB /* Assets.xcassets in Resources */,
 				185B8D2A1E058FE000B9C7BB /* Main.storyboard in Resources */,
+				18C933A21E06B33B0063F9F5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88992E60C6B73CAB4A4B1CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B62B10950798D0751854F00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHBMusicPlayer/Pods-WHBMusicPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE3632C7A580670FFE92A03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHBMusicPlayer/Pods-WHBMusicPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		185B8D181E058FE000B9C7BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185B8D3E1E0592A800B9C7BB /* WHBSong.m in Sources */,
 				185B8D271E058FE000B9C7BB /* ViewController.m in Sources */,
+				185B8D441E05933100B9C7BB /* WHBMusicPlayer.m in Sources */,
+				18C933B11E06BC620063F9F5 /* NSString+JSON.m in Sources */,
+				185B8D4A1E05955100B9C7BB /* WHBThemeManager.m in Sources */,
+				1832ABFC1E081760004D25FE /* WHBPlayerViewController.m in Sources */,
+				180335291E092F090083DB45 /* WHBLabel.m in Sources */,
+				180335261E0916870083DB45 /* NSString+Substring.m in Sources */,
+				18C933AB1E06B7CA0063F9F5 /* NSString+Path.m in Sources */,
+				180335231E0911180083DB45 /* WHBLrc.m in Sources */,
+				185B8D411E0592F000B9C7BB /* WHBPlaylist.m in Sources */,
+				180335201E0910220083DB45 /* WHBLrcView.m in Sources */,
+				18C933B01E06BC620063F9F5 /* NSData+JSON.m in Sources */,
+				185B8D471E05949F00B9C7BB /* WHBPlaylistManager.m in Sources */,
 				185B8D241E058FE000B9C7BB /* AppDelegate.m in Sources */,
 				185B8D211E058FE000B9C7BB /* main.m in Sources */,
 			);
@@ -175,6 +407,25 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		185B8D661E059C6300B9C7BB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185B8D671E059C7800B9C7BB /* zh-Hans */,
+				185B8D691E059CA500B9C7BB /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		18C933A41E06B33B0063F9F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C933A31E06B33B0063F9F5 /* Base */,
+				18C933A51E06B3410063F9F5 /* en */,
+				18C933A61E06B3420063F9F5 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -182,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -230,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -270,23 +523,33 @@
 		};
 		185B8D341E058FE000B9C7BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81697606306E1A970867BBC9 /* Pods-WHBMusicPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UUERZTHV57;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/$(TARHET_NAME)/WHBPrefixHeader.pch";
 				INFOPLIST_FILE = WHBMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.WHBMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6868a42c-841c-4066-883c-bb7105e4be44";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProfile;
 			};
 			name = Debug;
 		};
 		185B8D351E058FE000B9C7BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD4F689B5BA526B8F75FF48 /* Pods-WHBMusicPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UUERZTHV57;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/$(TARHET_NAME)/WHBPrefixHeader.pch";
 				INFOPLIST_FILE = WHBMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.WHBMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6868a42c-841c-4066-883c-bb7105e4be44";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProfile;
 			};
 			name = Release;
 		};
@@ -309,6 +572,7 @@
 				185B8D351E058FE000B9C7BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

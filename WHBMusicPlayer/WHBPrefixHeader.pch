@@ -1,0 +1,15 @@
+//
+//  WHBPrefixHeader.pch
+//  WHBMusicPlayer
+//
+//  Created by apple on 2016/12/17.
+//  Copyright © 2016年 apple. All rights reserved.
+//
+
+
+#import "WHBMusicPlayer.h"
+#import "WHBPlaylistManager.h"
+#import "WHBThemeManager.h"
+#import <Masonry.h>
+
+

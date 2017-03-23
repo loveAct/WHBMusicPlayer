@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  WHBMusicPlayer
+//  HMMusicPlayer
 //
-//  Created by apple on 2016/12/17.
-//  Copyright © 2016年 apple. All rights reserved.
+//  Created by teacher on 16/12/16.
+//  Copyright © 2016年 itcast. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
